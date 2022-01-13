@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "flatten-chibis": "truffle-flattener contracts/Chibis.sol >> flattened/chibis-flattened.sol",
+    "flatten-chibigalaxies": "truffle-flattener contracts/ChibiGalaxies.sol >> flattened/chibis-galaxies-flattened.sol"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "bignumber.js": "^9.0.1",
+    "chai": "^4.3.4",
+    "hardhat": "^2.6.8",
+    "mocha": "^9.1.3",
+    "truffle-flattener": "^1.5.0",
+    "web3": "^1.6.0"
+  },
+  "dependencies": {
+    "keccak256": "^1.0.3",
+    "merkletreejs": "^0.2.24",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
